@@ -32,12 +32,18 @@ h2 {
 
 .btn-group {
     display: flex;
+    gap: 20px;
+    justify-content: space-between;
     margin-top: 50px;
     position: relative;
     height: 40px;
 }
+.btn-group button:last-child {
+    margin-right: 0;
+}
 
 button {
+    margin-right: 20px;
     width: 150px;
     height: inherit;
     color: white;
